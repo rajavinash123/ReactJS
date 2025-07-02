@@ -10,7 +10,6 @@
 import { useState } from "react";
 import UseEffect from "./UseEffect";
 
-
 // function App() {
 //   const [counter, setCount] = useState(0);
 
@@ -18,7 +17,6 @@ import UseEffect from "./UseEffect";
 //   const userName="Avinash Kumar";
 //   let  x=10;
 //   let y=20;
-  
 
 //   return (
 //     <>
@@ -41,7 +39,6 @@ import UseEffect from "./UseEffect";
 
 // export default App;
 
-
 // import { useState } from 'react';
 // import './App.css';
 // import User from './User';
@@ -51,7 +48,6 @@ import UseEffect from "./UseEffect";
 // import { Satting } from './ImpExpComponent';
 // import ToDo  from './ToDo';
 // import Variable  from './JsxWithCurlyBraces';
-
 
 // function App() {
 //   const [counter, setCount] = useState(0);
@@ -64,7 +60,6 @@ import UseEffect from "./UseEffect";
 //   );
 // }
 // export default App;
-
 
 // import { useState } from 'react';
 // import './App.css';
@@ -96,8 +91,6 @@ import UseEffect from "./UseEffect";
 // }
 // export default App;
 
-
-
 //toggle hide and show
 
 // import { useState } from 'react';
@@ -122,7 +115,6 @@ import UseEffect from "./UseEffect";
 // }
 // export default App;
 
-
 //prop concept
 
 // import ChildernComp from './Prop';
@@ -137,7 +129,7 @@ import UseEffect from "./UseEffect";
 //     email:"raja@gmial.com"
 //   }
 //   return (
-   
+
 //     <div>
 // <ChildernComp name="Good Evening" age={30} email="Avinash@gmail.com" User={userObject}/>
 
@@ -146,7 +138,6 @@ import UseEffect from "./UseEffect";
 //   )
 // }
 // export default App;
-
 
 //chnage style with props
 // import Style from "./Style";
@@ -159,21 +150,19 @@ import UseEffect from "./UseEffect";
 // <h1>Hlo EveryOne </h1>
 //     <h1>Learning Day 4</h1>
 //    </Style>
-    
+
 //     </div>
 
 //   </>
 //   )
-  
+
 // }
 
 // export default App;
 
-
 // // Get input field value
 // import InputField from "./InputField";
 //  import './App.css';
-
 
 //  function App(){
 //   return(
@@ -187,10 +176,7 @@ import UseEffect from "./UseEffect";
 
 //  export default App;
 
-
-
 // //controlled component
-
 
 //  import controlledComponent from "./ControlledComponent";
 //   import './App.css';
@@ -209,7 +195,6 @@ import UseEffect from "./UseEffect";
 
 //Handle checkBox concept
 
-
 //   import './App.css';
 //   import HandleCheckBox from "./HandleCheckBox"
 
@@ -224,7 +209,6 @@ import UseEffect from "./UseEffect";
 //  }
 
 //  export default App;
-
 
 //Handle Radio and DropDown in react js
 //  import './App.css';
@@ -242,17 +226,12 @@ import UseEffect from "./UseEffect";
 
 //  export default App;
 
-
-
-
-
 // //learning Loop in jsx and Map
 // import './App.css';
 // import LoopAndMap from './LoopAndMap';
 
 //  function App(){
 
-  
 //   return(
 //     <>
 //     <div>
@@ -263,7 +242,6 @@ import UseEffect from "./UseEffect";
 //  }
 
 //  export default App;
-
 
 //learning resued comp-onent in loop
 
@@ -291,20 +269,195 @@ import UseEffect from "./UseEffect";
 
 // export default App;
 
-
-
 //:Learning useEffect and make clock
 
+// function App(){
 
-function App(){
+//   return(
+//     <>
+//     <div>
+//       <UseEffect />
 
-  return(
-    <>
+//     </div>
+//     </>
+//   )
+// }
+// export default App;
+
+//learning nestedLoop concept
+
+// import NestedLoop from "./NestedLoop";
+
+// function App(){
+
+//   return(
+//     <>
+//     <div>
+//       <NestedLoop />
+
+//     </div>
+//     </>
+//   )
+// }
+// export default App;
+
+//useState hooks learn
+
+// import './App.css'
+// import Counter from "./Component/Counter";
+
+// function App(){
+
+//   return(
+//     <>
+//     <div>
+//       <Counter />
+
+//     </div>
+//     </>
+//   )
+// }
+// export default App;
+
+//props children
+
+// import './App.css'
+// import Card from "./Component/Card";
+
+// function App(){
+
+//   return(
+//     <>
+//     <div>
+//       <Card>
+//       <p>Best LAerning Reasouces for Web Developmen</p>
+//       <h4>Learning Raect 1 July</h4>
+
+//       </Card >
+//       <Card children="ram">
+//         <p>Hlo Friwends</p>
+//       </Card>
+
+//     </div>
+//     </>
+//   )
+// }
+// export default App;
+
+//textInput chnage function
+
+// import './App.css'
+// import TextChnage from "./Component/TextChnage";
+
+// function App(){
+
+//   return(
+//     <>
+//     <div>
+//     <TextChnage/>
+
+//     </div>
+//     </>
+//   )
+// }
+// export default App;
+
+//StateLifting concept in react
+// import './App.css'
+// import TextChnage from "./Component/TextChnage";
+// import StateLifting from "./Component/StateLifting";
+
+// function App(){
+//create state
+//manage state
+//change state
+//all state me sync data
+//  const[name,setName]=useState('');
+
+//   return(
+//     <>
+//     <div>
+//     <StateLifting title="card1" name={name} setName={setName} />
+//      <StateLifting title="card2" name={name} setName={setName} />
+//     {/* <p>i am inside the parent component and value of name is:{name}</p>
+//    */}
+//     </div>
+//     </>
+//   )
+// }
+// export default App;
+
+//Learning conditional rendering
+
+// import LoginBtn from "./Component/LoginBtn";
+// import LogoutBtn from "./Component/LogoutBtn";
+// import './App.css'
+// function App(){
+//     const[isLoggedIn,setLoggedIn]=useState(true);
+
+//if-else rendering
+
+// if(isLoggedIn){
+//   return(
+//     <LogoutBtn/>
+//   )
+// }else{
+//   <LoginBtn/>
+// }
+
+//terneray rendering
+
+// return(
+//   <div>
+//     {isLoggedIn?<LogoutBtn/>:<LoginBtn/>}
+//   </div>
+// )
+
+//logical rendering
+
+// return(
+//   <div><h1>Learning Rendering condtional</h1>
+//   <div>
+//     {isLoggedIn && <LogoutBtn/>}
+//   </div>
+
+//   </div>
+
+// )
+
+// }
+// export default App;
+
+//event Handing
+
+import React, { Component } from "react";
+
+function App() {
+  function handelerMessage() {
+    alert("Button is clicked me");
+  }
+  function onMouseOver() {
+    alert("mouse over");
+  }
+  function handleInputChange(e) {
+    e.preventDefault();
+    alert("input chnage kar de");
+  }
+  return (
     <div>
-      <UseEffect />
-    
+      <button onClick={handelerMessage}>Clicked btn</button>
+      <p onMouseOver={onMouseOver}>Learning event handling</p>
+
+      <form action="">
+        <input
+          type="text"
+          placeholder="enter any input"
+          onChange={handleInputChange}
+        />
+        <button>Submit</button>
+      </form>
     </div>
-    </>
-  )
+  );
 }
+
 export default App;
